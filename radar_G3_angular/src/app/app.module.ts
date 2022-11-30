@@ -11,6 +11,7 @@ import { ProdutosComponent } from './pages/produtos/produtos.component';
 import { ModalClientesComponent } from './pages/modal-clientes/modal-clientes.component';
 import { ModalProdutosComponent } from './pages/modal-produtos/modal-produtos.component';
 import { ModalPedidosComponent } from './pages/modal-pedidos/modal-pedidos.component';
+import { CadastrapedidoComponent } from './pages/cadastrapedido/cadastrapedido.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ModalPedidosComponent } from './pages/modal-pedidos/modal-pedidos.compo
     ProdutosComponent,
     ModalClientesComponent,
     ModalProdutosComponent,
-    ModalPedidosComponent
+    ModalPedidosComponent,
+    CadastrapedidoComponent
   ],
   imports: [
     BrowserModule,
