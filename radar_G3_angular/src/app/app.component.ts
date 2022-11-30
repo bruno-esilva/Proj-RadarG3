@@ -1,14 +1,26 @@
-/*import { HttpClient } from '@angular/common/http';
+import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
-import { Cliente } from "../models/clientes";
+//import { Cliente } from "../models/clientes";
 
 import { firstValueFrom } from 'rxjs';
+
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+
+export class AppComponent {
+  title = 'radar_G3';
+}
 
 export class ClienteServico{
 
     constructor(private http:HttpClient) { }
 
-    public async lista(): Promise<Cliente[] | undefined> {
+    /*public async lista(): Promise<Cliente[] | undefined> {
         let clientes:Cliente[] | undefined = await firstValueFrom(this.http.get<Cliente[]>(`${environment.api}/clientes`))
         return clientes;
     }
@@ -29,5 +41,5 @@ export class ClienteServico{
 
     public excluirPorId(id:Number) {
         firstValueFrom(this.http.delete(`${environment.api}/clientes/${id}`))
-    }
-  }*/
+    }*/
+  }
