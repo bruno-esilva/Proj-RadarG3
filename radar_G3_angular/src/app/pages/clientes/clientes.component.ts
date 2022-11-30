@@ -12,13 +12,12 @@ export class ClientesComponent implements OnInit {
   }
 
   exibeForm:boolean = false
-  
+
   ngOnInit(): void {
   }
   
   
 
   static exibeCadastroCliente() {
-
   }
 }

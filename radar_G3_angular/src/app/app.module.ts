@@ -8,7 +8,6 @@ import { FormsModule } from '@angular/forms';
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { PedidosComponent } from './pages/pedidos/pedidos.component';
 import { ProdutosComponent } from './pages/produtos/produtos.component';
-import { ClientesServiceComponent } from './service/clientes-service/clientes-service.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { ClientesServiceComponent } from './service/clientes-service/clientes-se
     ClientesComponent,
     PedidosComponent,
     ProdutosComponent,
-    ClientesServiceComponent,
     
   ],
   imports: [
