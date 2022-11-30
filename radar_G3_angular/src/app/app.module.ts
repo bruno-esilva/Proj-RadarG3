@@ -8,6 +8,9 @@ import { FormsModule } from '@angular/forms';
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { PedidosComponent } from './pages/pedidos/pedidos.component';
 import { ProdutosComponent } from './pages/produtos/produtos.component';
+import { ModalClientesComponent } from './pages/modal-clientes/modal-clientes.component';
+import { ModalProdutosComponent } from './pages/modal-produtos/modal-produtos.component';
+import { ModalPedidosComponent } from './pages/modal-pedidos/modal-pedidos.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,9 @@ import { ProdutosComponent } from './pages/produtos/produtos.component';
     ClientesComponent,
     PedidosComponent,
     ProdutosComponent,
-    
+    ModalClientesComponent,
+    ModalProdutosComponent,
+    ModalPedidosComponent
   ],
   imports: [
     BrowserModule,
