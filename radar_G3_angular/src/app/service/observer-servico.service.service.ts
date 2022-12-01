@@ -1,6 +1,6 @@
-/*import { HttpClient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { ClienteServico } from './clienteServico';
+import { ClientesService } from './clientes.service';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +14,7 @@ export class ClienteObserverServicoService {
   public quantidade:Number = 0
 
   async atualizaQuantidade(){
-    let lista = await new ClienteServico(this.http).lista();
+    let lista = await new ClientesService(this.http).lista();
     this.quantidade = lista ? lista.length : 0;
   }
-}*/
+}

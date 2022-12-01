@@ -1,10 +1,10 @@
-/*import { HttpClient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
-import { Cliente } from "../models/cliente";
+import { Cliente } from "../models/clientes.module";
 
 import { firstValueFrom } from 'rxjs';
 
-export class ClienteServico{
+export class ClientesService{
 
     constructor(private http:HttpClient) { }
 
@@ -30,4 +30,4 @@ export class ClienteServico{
     public excluirPorId(id:Number) {
         firstValueFrom(this.http.delete(`${environment.api}/clientes/${id}`))
     }
-}*/
+}
